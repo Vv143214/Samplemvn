@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage ('SCM for Java Code test') {
             steps{
-                git changelog: false, url: 'https://github.com/jabedhasan21/java-hello-world-with-maven'
+                git changelog: false, url: 'https://github.com/Vv143214/Samplemvn/tree/main/simple-java-maven-app-master'
                 echo 'Polling to Developers SCM'
             }
         }
